@@ -1,0 +1,43 @@
+/* Анимация для текста */
+.main-text,
+.year,
+.description {
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Анимация для веточек */
+.branch {
+  animation: moveBranches 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveBranches {
+  0% {
+    transform: translateY(0) rotate(var(--branch-angle, 0deg));
+  }
+  100% {
+    transform: translateY(-20px) rotate(var(--branch-angle, 0deg));
+  }
+}
+
+/* Установим угол наклона для каждой веточки */
+.branch-1 {
+  --branch-angle: 1deg;
+}
+.branch-2 {
+  --branch-angle: -1deg;
+}
+.branch-3 {
+  --branch-angle: -16deg;
+}
+.branch-4 {
+  --branch-angle: -1deg;
+}

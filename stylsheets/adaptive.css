@@ -1,0 +1,42 @@
+@media screen and (min-width: 1060px) {
+  .branch-1 {
+    top: 5%;
+    right: 5%;
+  }
+
+  .branch-2 {
+    top: 20%;
+    right: 10%;
+  }
+
+  .branch-3 {
+    top: 40%;
+    right: 15%;
+  }
+
+  .branch-4 {
+    top: 60%;
+    right: 8%;
+  }
+}
+
+@media (max-width: 700px) {
+  .branch-1 {
+    top: 5%;
+    right: 5%;
+  }
+
+  .branch-2 {
+    top: 10%;
+    right: 10%;
+  }
+  .branch-3 {
+    top: 20%;
+    right: 15%;
+  }
+
+  .branch-4 {
+    top: 40%;
+    right: 8%;
+  }
+}

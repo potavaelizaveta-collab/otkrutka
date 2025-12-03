@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "129Kosmos";
+  src: url("../fonts/ofont.ru_Kosmos\ \(1\).ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/kover.svg") center/cover;
+  overflow: hidden;
+}
+
+.text-container {
+  position: relative;
+  font-family: "129Kosmos", Arial, sans-serif;
+  top: 10%;
+  left: 5%;
+  color: white;
+  font-size: 5vw;
+  z-index: 2;
+}
+
+.main-text {
+  margin: 0;
+  opacity: 0;
+  transform: rotate(5deg);
+}
+
+.year {
+  font-size: 8vw;
+  position: absolute;
+  top: 34vw;
+  margin: 0;
+  opacity: 0;
+}
+
+.description {
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 45vw;
+  left: -2vw;
+  font-size: 1.5vw;
+  margin: 0;
+  opacity: 0;
+}
+
+.branches-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30vw;
+  height: 100vh;
+  overflow: visible;
+}
+
+.branch {
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  background: url("../images/vetka.svg") center/contain no-repeat;
+  transform-origin: right center;
+  right: -20%;
+}
+
+.branch-1 {
+  top: -10%;
+  transform: rotate(15deg);
+}
+
+.branch-2 {
+  top: 17%;
+  transform: rotate(-10deg);
+}
+
+.branch-3 {
+  top: 35%;
+  transform: rotate(20deg);
+}
+
+.branch-4 {
+  top: 70%;
+  transform: rotate(-5deg);
+}
