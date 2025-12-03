@@ -1,4 +1,3 @@
-/* Анимация для текста */
 .main-text,
 .year,
 .description {
@@ -14,7 +13,6 @@
   }
 }
 
-/* Анимация для веточек */
 .branch {
   animation: moveBranches 1s ease-in-out infinite alternate;
 }
@@ -28,7 +26,6 @@
   }
 }
 
-/* Установим угол наклона для каждой веточки */
 .branch-1 {
   --branch-angle: 1deg;
 }
