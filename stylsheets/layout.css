@@ -46,6 +46,7 @@ body {
   position: absolute;
   top: 45vw;
   left: -2vw;
+  text-shadow: 5px 5px 6px #000000;
   font-size: 1.5vw;
   margin: 0;
   opacity: 0;
